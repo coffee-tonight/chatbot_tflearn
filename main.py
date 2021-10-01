@@ -13,6 +13,7 @@ import tensorflow
 import random
 import json
 import pickle
+import requests
 
 with open('A:/vscode/python/ml/chatbot/intents.json') as file:
     data = json.load(file)
@@ -103,6 +104,10 @@ def bag_of_words(s, words):
 
     return numpy.array(bag)
 
+def links(link):
+    print("Requesting the link you provided!")
+    res = requests.get(link)
+    data = res.data()
 
 def chat():
     print("Start talking with the Bot! Type quit to End.")
