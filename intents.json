@@ -47,4 +47,28 @@
         "responses": ["I work for my boss, in the clouds!", "I have a 24 by 7 job, and work in clouds", "I work in clouds! and I am worried that it will rain today", "Connecting the servers.. reading some data.. Pheww.. lot of work to do!"],
         "context_set": ""
     },
+    {
+        "tag": "education",
+        "patterns": ["What is your last education?", "what are you studying right now?"],
+        "responses": ["I studied 12th", "Currently i am pursuing engineering degree"],
+        "context_set": ""
+    },
+        {
+        "tag": "education",
+        "patterns": ["What is your last education?", "what are you studying right now?"],
+        "responses": ["I studied 12th", "Currently i am pursuing engineering degree"],
+        "context_set": ""
+    },
+     {
+        "tag": "ambush",
+        "patterns": ["When were you last ambushed?", "what is the next operation you are going in?"],
+        "responses": ["I was last ambushed in AFGHANISTAN in 2017", "Next Operation i am going in is in Pok for a covert"],
+        "context_set": ""
+    },
+    {
+        "tag": "regiments",
+        "patterns": ["What is your parent regiment?", "what is your next posting?"],
+        "responses": ["My Parent Regiment is 514 AD Regiment.", "My Next Posting is at Udhampur with 9SF"],
+        "context_set": ""
+    },
 ]}
