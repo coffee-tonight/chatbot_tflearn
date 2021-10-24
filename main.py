@@ -106,11 +106,11 @@ def bag_of_words(s, words):
 
 def links(link):
     print("Requesting the link you provided!")
-    res = requests.get(link)
+    res = requests.get(link) #query link
     data = res.data()
 
 def chat():
-    print("Start talking with the Bot! Type quit to End.")
+    print("Begin conversation with the bot! Type 'quit' to End.")
     while True:
         inp = input("You: ")
         if inp.lower() == "quit":
