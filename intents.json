@@ -71,5 +71,17 @@
             "responses": ["My Parent Regiment is 514 AD Regiment.", "My Next Posting is at Udhampur with 9SF"],
             "context_set": ""
         },
+        {
+            "tag": "guns",
+            "patterns": ["What is best Gun?", "what is your fvourite gun?", "What kind of a machine is a Gun?", "Do you like Guns?", "What is the minimum budget to buy a Gun?"],
+            "responses": ["Minimum budget is about 200 dollars", "SLR", "Tavor", "Killer Gorkhas"],
+            "context_set": ""
+        },
+        {
+            "tag": "baskets",
+            "patterns": ["What is your choice while buying a basket?", "Minimum price for a basket?"],
+            "responses": ["The Blue basket in Wallmart", "10$"],
+            "context_set": ""
+        },
     ]
 }
