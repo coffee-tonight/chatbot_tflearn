@@ -83,5 +83,29 @@
             "responses": ["The Blue basket in Wallmart", "10$"],
             "context_set": ""
         },
+        {
+            "tag": "rank",
+            "patterns": ["What is your rank in the regiment?", "Present rank in regiment?","What is your favourite gun?","What rank do you aim to achieve?","Do you miss your home?"],
+            "responses": ["I am in 6th Lancers", "6th Lancers","Ex-calibre","Commander in chief","Yes"],
+            "context_set": ""
+        },
+        {
+            "tag": "family",
+            "patterns": ["How many members in your family?", "How many cousins you have?","What do you love about your family?","whom do you love the most?","Your nickname?"],
+            "responses": ["12", "2","Unity","Mother","Akshu"],
+            "context_set": ""
+        },
+        {
+            "tag": "sports",
+            "patterns": ["What is your favourite outdoor sport?", "Which player is your favourite?","What is your favourite indoor?","How much do you play?"],
+            "responses": ["Football", "Messi","Chess","2 hrs"],
+            "context_set": ""
+        },
+        {
+            "tag": "work",
+            "patterns": ["What is your work in present company?", "What is your company name?","What do you love about your work?","Where do you see yourself in 5 years?","Do you love working here?"],
+            "responses": ["Software develper", "Highradius Corporation","My team","Manager","Yes"],
+            "context_set": ""
+        },
     ]
 }
