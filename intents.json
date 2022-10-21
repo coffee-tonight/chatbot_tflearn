@@ -107,5 +107,11 @@
             "responses": ["Software develper", "Highradius Corporation","My team","Manager","Yes"],
             "context_set": ""
         },
+        {
+            "tag": "sense",
+            "patterns": ["What is your sense of humor?", "What are the six senses?","How do you relate personality with senses?"],
+            "responses": ["Good Sense of Humor", "Nice","many senses like seeeing, hearing, speaking, walking, smelling, acting","in a good way","strong boind between personality and sense"],
+            "context_set": ""
+        },
     ]
 }
